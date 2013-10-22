@@ -1,0 +1,17 @@
+{
+  "name": "helloworld",
+  "scripts": {
+    "start": "dist/server.js",
+    "build": "build.js"
+  },
+  "main": "./server.js",
+  "repository": {
+    "type": "git",
+    "branch": "master",
+    "url": "git://github.com/mattstyles/hellonode"
+  },
+  "version": "0.0.0",
+  "dependencies": {
+    "exec-sync": "~0.1.6"
+  }
+}

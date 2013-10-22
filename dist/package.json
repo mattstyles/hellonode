@@ -1,0 +1,16 @@
+{
+  "name": "helloworld",
+  "scripts": {
+    "start": "server.js"
+  },
+  "main": "./server.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/marak/hellonode.git"
+  },
+  "version": "0.0.0",
+  "dependencies": {
+    "cluster": "~0.7.7",
+    "exec-sync": "~0.1.6"
+  }
+}
