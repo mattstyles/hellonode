@@ -1,0 +1,11 @@
+.DS_Store
+NOTES.md
+
+bower_components/
+node_modules/
+
+dist/
+prod-built/
+prod-git/
+prod-final/
+
