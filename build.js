@@ -12,3 +12,6 @@ if ( fs.existsSync( './dist' ) ) {
 fs.mkdirSync( './dist' );
 
 execSync( 'cp *.js* ./dist/ ');
+
+touch ./dist/test
+
