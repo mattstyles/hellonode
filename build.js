@@ -13,5 +13,8 @@ fs.mkdirSync( './dist' );
 
 execSync( 'cp *.js* ./dist/ ');
 
-touch ./dist/test
-
+fs.writeFileSync( './dist/test.json', JSON.stringify({
+    foo: 'foo',
+    bar: 'bar',
+    quux: 'quux'
+}));
