@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+
+
 var fs = require( 'fs' ),
     execSync = require( 'exec-sync' );
 

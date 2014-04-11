@@ -2,7 +2,7 @@
   "name": "helloworld",
   "scripts": {
     "start": "dist/server.js",
-    "build": "build.js"
+    "build": "./build.js"
   },
   "main": "./server.js",
   "repository": {
